@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CV</title>
+    <style>
+        .profile-container {
+            display: flex;
+            align-items: center;
+            padding: 45px;
+        }
+        .profile-picture {
+            height: 200px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .profile-info {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section>
+<div class="profile-container">
+    <img src="Falguni.jpeg" class="profile-picture">
+
+    <div class="profile-info">
+        <span style="font-size: 400%;">Falguni Yadav</span><br>
+        <span style="font-size: 200%;">Under-Graduate Student</span>
+    </div>
+</div>
+</section>
+
+<div style="padding: 45px;">
+    <hr>
+    <dl>
+        <span style="font-size: large;"><u><b>PROFILE</b></u></span>
+        <p>I am an enthusiastic third-year B.Tech CSE student with a focus on web development and design. I blend creativity with technical skills to create smooth and engaging digital experiences.</p>
+    </dl>
+<hr>
+    <dl>
+        <span style="font-size: large;"> <u><b>CONTACT ME</b></u> </span>
+        <li><img src="call img.png" style="height: 20px; width: 20px;"> +91 7501756156</li>
+        <li><img src="mail img.png" style="height: 20px; width: 20px;"> falguniyadav1430@gmail.com</li>
+        <li><img src="location img.png" style="height: 20px; width: 20px;"> Kharagpur,West Bengal</li>
+    </dl>
+    <hr>
+<section>
+    <dl>
+        <span style="font-size: large;"><u><b>EDUCATION</b></u></span>
+        <li>ADAMAS UNIVERSITY (2022-2026)<br> Computer Science Engineering Career in progress.</li>
+        <li> BNR Excellence Academy (2020-2022)<br> Passed Higher Secondary Education.</li>
+        <li> St. Joseph’s School (2020)<br> Passed class 10 Boards.</li>
+    </dl>
+</section>
+<hr>
+<section>
+    <dl>
+        <span style="font-size: large;"><u><b>SKILLS</b></u></span>
+        <li>Basics of Java</li>
+        <li>C Programming</li>
+        <li>C++ Programming</li>
+        <li>Basics of Python</li>
+        <li>Front-end development</li>
+        <li>Canva</li>
+       <li>Figma </li>
+    </dl>
+</section>
+<hr>
+<h2><u>Hobbies</u></h2>
+ <dl>
+        <li>Coding </li>
+        <li>Reading</li>
+        <li>painting</li>
+        <li>listening to music</li>
+</dl>       
+  <hr>
+</div>
+
+<div style="display: inline-block;">
+    <iframe src="https://www.android.com/intl/en_in/" style="width: 500px; height: 600px;"></iframe>
+</div>
+<div>
+    <iframe src="https://webflow.com/made-in-webflow/iframe" style="width: 1000px; height: 350px;"></iframe>
+</div>
+<br>
+<span style="padding: 400px;">
+    <a href="https://www.android.com/intl/en_in/"><button style="color: rgb(165, 42, 128);">VIEW MORE</button></a>
+</span>
+</body>
+</html>
