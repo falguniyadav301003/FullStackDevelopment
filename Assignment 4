@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY ASSIGNMENT 4</title>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], input[type=password], input[type=date], input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+.signupbtn {
+  float: left;
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+  input[type=submit], .signupbtn {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body link="blue" alink="red" vlink="green">
+    <div class="container">
+      <div class="form-title"><a href="Assignment3.html">STUDENTS REGISTRATION FORM</a></div>
+
+        <form>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+      <br>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+      <br>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" placeholder="it should contain @...">
+      <br>
+          <label for="mobile">Mobile:</label>
+           <input type="tel" pattern="[0-9]{10}" minlength="10" maxlength="10" required id="Mobile" name="Mobile:" placeholder="only 10 digits are allowed">
+      <br>
+          
+
+          <label for="gender">Gender:</label>
+          <div class="gender-container">
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label>
+          </div>
+
+      <br>
+          <label for="dob">Date Of Birth:</label>
+          <input type="date" min="2012-12-12" max="2024-08-13" id="dob" name="dob" placeholder="mm/dd/yyyy">
+      <br>
+          <label for="address">Address:</label> <br>
+         <textarea id="address" name="address" maxlength="500" rows="5" cols="30" placeholder="Enter your address" ></textarea>
+      <br>
+          <label for="city">City:</label>
+         <select name="city" id="city">
+         <option value="">Select a city</option>
+        <option value="Barasat">Barasat</option>
+        <option value="Barrackpore">Barrackpore</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Darjeeling">Darjeeling</option>
+        <option value="Siliguri">Siliguri</option>
+      </select>
+      <br>
+          <label for="pin">Area pin:</label>
+          <input type="text" id="pin" name="pin" maxlength="6" pattern="[0-9]{6}" placeholder="Enter your area pin">
+      <br>
+          <label for="state">State:</label>
+          <input type="text" id="state" name="state" placeholder="Enter your state">
+      <br>
+          <label for="qualification">Qualification:</label>
+          <select id="qualification" name="qualification">
+            <option value="">Select Qualification:</option>
+            <option value="Undergraduate">Undergraduate</option>
+            <option value="Postgraduate">Postgraduate</option>
+            <option value="High School">High School</option>
+            <option value="Diploma">Diploma</option>
+      
+          </select>
+      <br>
+          <label for="specialization">Specialization:</label>
+          
+          <br>
+          <label for="computer science">Computer Science</label>
+          <input type="checkbox" id="computer science" name="specialization" value="Computer Science">
+         
+          <br>
+          <label for="information technology">Information Technology</label>
+           <input type="checkbox" id="information technology" name="specialization" value="Information Technology">
+          
+          <br>
+          <label for="computer architecture">Computer Architecture</label>
+          <input type="checkbox" id="computer architecture" name="specialization" value="Computer Architecture">
+         
+          <br>
+          <label for="tele communication">Tele Communication</label>
+          <input type="checkbox" id="tele communication" name="specialization" value="Tele Communication">
+      <br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" maxlength="8" placeholder="Enter your password">
+      <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      
+
+
+</body>
+</html>
